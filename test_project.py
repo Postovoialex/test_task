@@ -6,8 +6,8 @@ import requests
 import time
 import random
 
-options = Options()     #Блокирую запуск браузера
-options.headless = False # True - вебдрайвер работает в фоновом режиме; False - браузер работает в активном окне 
+options = Options()  
+options.headless = False 
 driver = webdriver.Firefox(options=options, executable_path=r'C:\Users\PC\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\selenium\webdriver\firefox\geckodriver') 
 
 def openStatrLink (start_link):
